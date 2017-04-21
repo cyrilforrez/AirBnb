@@ -37,3 +37,28 @@ h1 span {
 	color: red;
 }
 
+main ul {
+	display: flex;
+}
+
+main ul li {
+	font-size: 12px;
+	color: #008489;
+}
+
+main div input {
+	display: none;
+}
+
+.tablette {
+	display: none;
+}
+
+section div {
+	display: flex;
+}
+
+main div button {
+	width: 230px;
+	height: 40px;
+}
