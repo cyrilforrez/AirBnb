@@ -1,0 +1,39 @@
+body {margin: 0}
+
+ul {list-style-type: none;}
+
+/*-----------------------------------Smartphone---------------------------------------------*/
+
+/*------------------------------------HEADER-------------------------------------------------*/
+
+header {
+	height: 60px;
+}
+
+
+header img {
+	position: relative;
+	left: 8%;top: 12px;
+}
+
+nav {
+	display: none;
+}
+
+/*-------------------------------------MAIN--------------------------------------------------*/
+
+h1 {
+	position: relative;
+	left: 8%;
+	height: 123px;
+	width: 299px;
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #484849;
+}
+
+h1 span {
+	color: red;
+}
+
