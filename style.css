@@ -1,6 +1,10 @@
-body {margin: 0}
+body {
+	margin: 0;
+	color: #484848;
+}
 
 ul {list-style-type: none;}
+
 
 /*-----------------------------------Smartphone---------------------------------------------*/
 
@@ -24,9 +28,9 @@ nav {
 
 h1 {
 	position: relative;
-	left: 8%;
+	left: 6%;
 	height: 123px;
-	width: 299px;
+	width: 90%;
 	font-size: 22px;
 	line-height: 30px;
 	font-weight: 300;
@@ -39,11 +43,27 @@ h1 span {
 
 main ul {
 	display: flex;
+	overflow-x: scroll;
+	overflow-y: auto;
+	white-space: nowrap;
+	padding: 0;
+}
+
+.color {
+	color: #008489;
+}
+
+.grey {
+	color: #484848;
 }
 
 main ul li {
-	font-size: 12px;
+	font-size: 11px;
 	color: #008489;
+	padding-bottom: 12px;
+	border-bottom: 2px solid #008489;
+	margin: 0 16px 0 0;
+	font-weight: 700;
 }
 
 main div input {
@@ -54,12 +74,16 @@ main div input {
 	display: none;
 }
 
-section div {
-	display: flex;
+main div {
+	position: relative;
+	top: 53px;
+	height: 100px;
+	width: 90%;
+	left: 6%;
 }
 
 main div button {
-	width: 75%;
+	width: 79%;
 	height: 40px;
 	position: relative;
 	left: 13%;
@@ -70,10 +94,25 @@ main div button {
 }
 
 main div button img {
-
 	vertical-align: middle;
 }
 
 main div button span {
 	vertical-align: middle;
+}
+
+section {
+	position: relative;
+	top: 9px;
+}
+
+section h2 {
+	position: relative;
+	width: 90%;
+	left: 6%;
+	font-size: 20px;
+}
+
+section div {
+	display: flex;
 }
