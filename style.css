@@ -59,6 +59,21 @@ section div {
 }
 
 main div button {
-	width: 230px;
+	width: 75%;
 	height: 40px;
+	position: relative;
+	left: 13%;
+	font-size: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+main div button img {
+
+	vertical-align: middle;
+}
+
+main div button span {
+	vertical-align: middle;
 }
