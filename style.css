@@ -110,6 +110,8 @@ section {
 	top: 9px;
 }
 
+/*---------------------------------Section-------------------------------------*/
+
 section h2 {
 	position: relative;
 	width: 90%;
@@ -143,5 +145,77 @@ section figure figcaption span {
 }
 
 section figure figcaption p {
-	font-size: 15px;
+	font-size: 13px;
+}
+
+main article {
+	height: 300px;
+}
+
+/*--------------------------------------------------Article------------------------------------*/
+
+article img {
+	position: relative;
+	bottom: 7%;
+}
+
+.article {
+	top: 100%; 
+}
+
+/*----------------------------------------------FOOTER------------------------------------------------*/
+
+footer {
+	position: absolute;
+	top: 449%;
+}
+
+footer div {
+	position: relative;
+	width: 100%;
+}
+
+footer select {
+	width: 43%;
+	height: 60px;
+	padding: 3%;
+	margin: 3%;
+}
+
+.icon {
+	width: 80%;
+	height: 50px;
+	left: 10%;
+}
+
+.icon p {
+	position: relative;
+	display: inline-block;
+	top: 40%;
+}
+
+.smartphone {
+	position: relative;
+	top: 50%;
+}
+
+.links {
+	width: 40%;
+	position: relative;
+	left: 7%;
+}
+
+.links ul {
+	padding: 0%;
+	margin: 6%;
+	width: 200%;
+}
+
+.inline-links {
+	display: inline-block;
+	color: #484848;
+}
+
+.inline-links a {
+	color: #484848;
 }
