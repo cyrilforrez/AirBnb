@@ -115,4 +115,21 @@ section h2 {
 
 section div {
 	display: flex;
+	height: 348px;
+	top: 0px;
+	overflow-y: hidden;
+	overflow-x: auto;
+}
+
+section figure {
+	position: relative;
+	margin: auto;
+	bottom: 8%;
+	padding: 2%;
+}
+
+section figure figcaption img {
+	position: relative;
+	
+	margin: auto;
 }
