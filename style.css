@@ -26,6 +26,18 @@ nav {
 
 /*-------------------------------------MAIN--------------------------------------------------*/
 
+main div input {
+	display: none;
+}
+
+.tablette {
+	display: none;
+}
+
+.pc {
+	display: none;
+}
+
 h1 {
 	position: relative;
 	left: 6%;
@@ -64,14 +76,6 @@ main ul li {
 	border-bottom: 2px solid #008489;
 	margin: 0 16px 0 0;
 	font-weight: 700;
-}
-
-main div input {
-	display: none;
-}
-
-.tablette {
-	display: none;
 }
 
 main div {
@@ -115,7 +119,7 @@ section h2 {
 
 section div {
 	display: flex;
-	height: 348px;
+	height: 80%;
 	top: 0px;
 	overflow-y: hidden;
 	overflow-x: auto;
@@ -125,11 +129,19 @@ section figure {
 	position: relative;
 	margin: auto;
 	bottom: 8%;
-	padding: 2%;
+	padding: 8% 2%;
 }
 
 section figure figcaption img {
 	position: relative;
-	
 	margin: auto;
+}
+
+section figure figcaption span {
+	font-size: 15px;
+	font-weight: 700;
+}
+
+section figure figcaption p {
+	font-size: 15px;
 }
