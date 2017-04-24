@@ -8,6 +8,52 @@ ul {list-style-type: none;}
 
 /*-----------------------------------Smartphone---------------------------------------------*/
 
+nav, main div input, .plus, .tablette, .pc { display: none; } 
+
+header img, h1, main div, main div button, section, section h2, section figure, 
+section figure figcaption img, article img,footer div, .icon p, .smartphone, .links {
+	position: relative;  
+} 
+
+main div button span, main div button img {
+	vertical-align: middle;
+}
+
+main ul, section div {
+	display: flex;
+}
+
+h1, main div, section h2 {
+	width: 90%;
+}
+
+.icon p, .inline-links {
+	display: inline-block;
+}
+
+.color, main ul li {
+	color: #008489;
+}
+
+.grey, h1, .inline-links, .inline-links a {
+	color: #484848;
+}
+
+main ul, main div button {
+	white-space: nowrap;
+}
+
+section figure, section figure figcaption img {
+	margin: auto;
+}
+
+main div button, section figure figcaption span {
+	font-size: 15px;
+}
+
+main ul li, section figure figcaption span {
+	font-weight: 700;
+}
 /*------------------------------------HEADER-------------------------------------------------*/
 
 header {
@@ -16,41 +62,18 @@ header {
 
 
 header img {
-	position: relative;
-	left: 8%;top: 12px;
-}
-
-nav {
-	display: none;
+	left: 8%;
+	top: 12px;
 }
 
 /*-------------------------------------MAIN--------------------------------------------------*/
 
-main div input {
-	display: none;
-}
-
-.plus {
-	display: none;
-}
-
-.tablette {
-	display: none;
-}
-
-.pc {
-	display: none;
-}
-
 h1 {
-	position: relative;
 	left: 6%;
 	height: 123px;
-	width: 90%;
 	font-size: 22px;
 	line-height: 30px;
 	font-weight: 300;
-	color: #484849;
 }
 
 h1 span {
@@ -58,73 +81,44 @@ h1 span {
 }
 
 main ul {
-	display: flex;
 	overflow-x: scroll;
 	overflow-y: auto;
-	white-space: nowrap;
 	padding: 0;
-}
-
-.color {
-	color: #008489;
-}
-
-.grey {
-	color: #484848;
 }
 
 main ul li {
 	font-size: 11px;
-	color: #008489;
 	padding-bottom: 12px;
 	border-bottom: 2px solid #008489;
 	margin: 0 16px 0 0;
-	font-weight: 700;
 }
 
 main div {
-	position: relative;
 	top: 53px;
 	height: 100px;
-	width: 90%;
 	left: 6%;
 }
 
 main div button {
 	width: 79%;
 	height: 40px;
-	position: relative;
-	font-size: 15px;
-	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	cursor: pointer;
 }
 
-main div button img {
-	vertical-align: middle;
-}
-
-main div button span {
-	vertical-align: middle;
-}
+/*---------------------------------Section-------------------------------------*/
 
 section {
-	position: relative;
 	top: 9px;
 }
 
-/*---------------------------------Section-------------------------------------*/
-
 section h2 {
-	position: relative;
-	width: 90%;
 	left: 6%;
 	font-size: 20px;
 }
 
 section div {
-	display: flex;
 	height: 80%;
 	top: 0px;
 	overflow-y: hidden;
@@ -132,20 +126,8 @@ section div {
 }
 
 section figure {
-	position: relative;
-	margin: auto;
 	bottom: 8%;
 	padding: 8% 2%;
-}
-
-section figure figcaption img {
-	position: relative;
-	margin: auto;
-}
-
-section figure figcaption span {
-	font-size: 15px;
-	font-weight: 700;
 }
 
 section figure figcaption p {
@@ -159,7 +141,6 @@ main article {
 /*--------------------------------------------------Article------------------------------------*/
 
 article img {
-	position: relative;
 	bottom: 7%;
 }
 
@@ -182,7 +163,6 @@ footer {
 }
 
 footer div {
-	position: relative;
 	width: 100%;
 }
 
@@ -200,19 +180,15 @@ footer select {
 }
 
 .icon p {
-	position: relative;
-	display: inline-block;
 	top: 40%;
 }
 
 .smartphone {
-	position: relative;
 	top: 50%;
 }
 
 .links {
 	width: 40%;
-	position: relative;
 	left: 7%;
 }
 
@@ -220,13 +196,4 @@ footer select {
 	padding: 0%;
 	margin: 6%;
 	width: 200%;
-}
-
-.inline-links {
-	display: inline-block;
-	color: #484848;
-}
-
-.inline-links a {
-	color: #484848;
 }
