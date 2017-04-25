@@ -50,7 +50,7 @@
 
 	<section>
 		<h2>Réservées à l'instant</h2>
-		<div class="main">
+		<div class="galerie">
 			<figure>
 				<figcaption>
 					<a href="@">
@@ -116,7 +116,7 @@
 
 	<section>
 		<h2>Expériences</h2>
-		<div class="main">
+		<div class="galerie">
 			<figure>
 				<figcaption>
 					<a href="@">
@@ -183,7 +183,7 @@
 	<section>
 		<h2>Logements</h2>
 		<button class="plus"></button>
-		<div class="main">
+		<div class="galerie">
 			<figure>
 				<figcaption>
 					<a href="@">
@@ -225,7 +225,7 @@
 
 	<section>
 		<h2>Destinations à la une</h2>
-		<div class="main">
+		<div class="galerie">
 			<figure>
 				<figcaption>
 					<a href="@">
@@ -307,7 +307,7 @@
 			<p>Complétez vos revenus en accueillant des voyageurs.</p>
 			<button>Estimer mes revenus</button>
 		</div>
-		<img src="img/imgsmartphone/img9.jpg" alt="Acceuil">
+		<img class="smph" src="img/imgsmartphone/img9.jpg" alt="Acceuil">
 		<img class="tablette" src="img/imgtablette/img9.jpg" alt="Acceuil">
 		<img class="pc" src="img/imgpc/img9.jpg" alt="Acceuil">
 	</article>
@@ -315,67 +315,74 @@
 
 	<footer>
 		<div>
-			<select name="language-selector" id="language-selector">
-				<option value="fr">Francais</option>
-				<option value="en">Anglais</option></select>
-			<select name="currency-selector" id="currency-selector">
-				<option value="eur">Euro</option>
-				<option value="gbp">GBP</option></select>
-			</select>
-			<h3 class="tablette">Airbnb</h3>
-			<ul class="tablette">
-				<li><a href="@">À propos</a></li>
-				<li><a href="@">Carrières</a></li>
-				<li><a href="@">Presse</a></li>
-				<li><a href="@">Règles</a></li>
-				<li><a href="@">Aide</a></li>
-				<li><a href="@">Diversité et intégration</a></li>
-			</ul>
+			<div class="select">
+				<select name="language-selector" id="language-selector">
+					<option value="fr">Francais</option>
+					<option value="en">Anglais</option></select>
+				<select name="currency-selector" id="currency-selector">
+					<option value="eur">Euro</option>
+					<option value="gbp">GBP</option></select>
+				</select>
+			</div>
+			<div class="lien">
+				<h3 class="lks">Airbnb</h3>
+				<ul class="lks">
+					<li><a href="@">À propos</a></li>
+					<li><a href="@">Carrières</a></li>
+					<li><a href="@">Presse</a></li>
+					<li><a href="@">Règles</a></li>
+					<li><a href="@">Aide</a></li>
+					<li><a href="@">Diversité et intégration</a></li>
+				</ul>
+			</div>
 
-			<h3 class="tablette">Découvrir</h3>
-			<ul class="tablette">
-				<li><a href="@">Confiance et sécurité</a></li>
-				<li><a href="@">Crédit voyage</a></li>
-				<li><a href="@">Airbnb Citizen</a></li>
-				<li><a href="@">Voyage d'affaires</a></li>
-				<li><a href="@">Guides</a></li>
-			</ul>
-
-
-			<h3 class="tablette">Hébergement</h3>
-			<ul class="tablette">
-				<li><a href="@">Pourquoi être hôte</a></li>
-				<li><a href="@">Hospitalité</a></li>
-				<li><a href="@">Hébergement responsable</a></li>
-			</ul>
+			<div class="lien">
+				<h3 class="lks">Découvrir</h3>
+				<ul class="lks">
+					<li><a href="@">Confiance et sécurité</a></li>
+					<li><a href="@">Crédit voyage</a></li>
+					<li><a href="@">Airbnb Citizen</a></li>
+					<li><a href="@">Voyage d'affaires</a></li>
+					<li><a href="@">Guides</a></li>
+				</ul>
+			</div>
+			
+			<div class="lien">
+				<h3 class="lks">Hébergement</h3>
+				<ul class="lks">
+					<li><a href="@">Pourquoi être hôte</a></li>
+					<li><a href="@">Hospitalité</a></li>
+					<li><a href="@">Hébergement responsable</a></li>
+				</ul>
+			</div>
 		</div>
 
-	<div>
-		<div class="icon">
-			<img class="smartphone" src="img/imgsmartphone/icon4.png" alt="logo du site">
-			<img class="tablette" src="img/imgtablette/icon4.png" alt="logo du site">
-			<img class="pc" src="img/imgpc/icon4.png" alt="logo du site">
-			<p>© Airbnb, Inc.</p>
+		<div>
+			<div class="icon">
+				<img class="smartphone" src="img/imgsmartphone/icon4.png" alt="logo du site">
+				<img class="tablette" src="img/imgtablette/icon4.png" alt="logo du site">
+				<img class="pc" src="img/imgpc/icon4.png" alt="logo du site">
+				<p>© Airbnb, Inc.</p>
+			</div>
+			<div class="links">
+				<ul>
+					<li class="inline-links"><a href="@" style="text-decoration:none">Conditions</a></li>
+					<li class="inline-links"><a href="@" style="text-decoration:none">Politique de confidentialité</a></li>
+					<li class="tablette"><a href="@" style="text-decoration:none">Plan du site</a></li>
+				</ul>
+			<div class="icon">
+				<img src="img/imgsmartphone/icon1.jpg" alt="logo facebook">
+				<img class="tablette" src="img/imgtablette/icon1.jpg" alt="logo facebook">
+				<img class="pc" src="img/imgpc/icon1.jpg" alt="logo facebook">
+				<img src="img/imgsmartphone/icon2.png" alt="logo twitter">
+				<img class="tablette" src="img/imgtablette/icon2.png" alt="logo twitter">
+				<img class="pc" src="img/imgpc/icon2.png" alt="logo twitter">
+				<img src="img/imgsmartphone/icon3.png" alt="logo instagram">
+				<img class="tablette" src="img/imgtablette/icon3.png" alt="logo instagram">
+				<img class="pc" src="img/imgpc/icon3.png" alt="logo instagram">
+			</div>
+			</div>
 		</div>
-		<div class="links">
-			<ul>
-				<li class="inline-links"><a href="@" style="text-decoration:none">Conditions</a></li>
-				<li class="inline-links"><a href="@" style="text-decoration:none">Politique de confidentialité</a></li>
-				<li class="tablette"><a href="@">Plan du site</a></li>
-			</ul>
-		<div class="icon">
-			<img src="img/imgsmartphone/icon1.jpg" alt="logo facebook">
-			<img class="tablette" src="img/imgtablette/icon1.jpg" alt="logo facebook">
-			<img class="pc" src="img/imgpc/icon1.jpg" alt="logo facebook">
-			<img src="img/imgsmartphone/icon2.png" alt="logo twitter">
-			<img class="tablette" src="img/imgtablette/icon2.png" alt="logo twitter">
-			<img class="pc" src="img/imgpc/icon2.png" alt="logo twitter">
-			<img src="img/imgsmartphone/icon3.png" alt="logo instagram">
-			<img class="tablette" src="img/imgtablette/icon3.png" alt="logo instagram">
-			<img class="pc" src="img/imgpc/icon3.png" alt="logo instagram">
-		</div>
-		</div>
-	</div>
 	</footer>
 
 </body>
